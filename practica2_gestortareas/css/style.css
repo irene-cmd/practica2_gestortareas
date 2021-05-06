@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+form{
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    background-color:#ccc;
+}
+
+form input .text{
+    width: 200px;;
+    padding:5px 12px;
+border: 1px solid black;
+border-radius:3px;
+background-color:white;
+margin:10px 5;
+display:inline-block;
+}
+
+#prioridad{
+    width: 200px;
+    padding:3px 10px;
+    border: 1px solid black;
+border-radius:3px;
+background-color: white;
+margin: 8px 10px;
+display: inline-block;
+}
+
+form input .submit{
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    color: black;
+    background-color: white;
+}
+
+ul #tareas{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+ul #tareas .Urgente{
+background-color: pink;
+}
+
+ul #tareas .Diaria{
+background-color: orange;
+}
+
+ul #tareas .Mensual{
+background-color: yellow;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor tareas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="">
+        <input type="text" placeholder="Titulo de tarea" id="titulo">
+        <select id="prioridad">
+            <option value="" selected>Selecciona una prioridad</option>
+            <option value="Urgente">Urgente</option>
+            <option value="Diaria">Diaria</option>
+            <option value="Mensual">Mensual</option>
+        </select>
+        <input type="submit" value="guardar" id="guardar">
+    </form>
+    <ul id="tareas">
+
+    </ul>
+    <script src="js/gestor.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
